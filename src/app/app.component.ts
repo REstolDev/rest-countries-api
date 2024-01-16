@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'rest-countries-api';
   showCountryDetail : boolean = false;
   selectedCountry : string = '';
- 
+
   onCountrySelected(countryName: string){
     this.showCountryDetail = true;
     this.selectedCountry = countryName;
@@ -17,3 +17,4 @@ export class AppComponent {
 
   onBackToMain(){ this.showCountryDetail = false };
 }
+//test
